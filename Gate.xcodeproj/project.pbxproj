@@ -12,6 +12,14 @@
 		5E4604F919855DF80067EC9F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E4604F719855DF80067EC9F /* Main.storyboard */; };
 		5E4604FB19855DF80067EC9F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E4604FA19855DF80067EC9F /* Images.xcassets */; };
 		5E46050719855DF80067EC9F /* GateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E46050619855DF80067EC9F /* GateTests.swift */; };
+		5E46051319855E460067EC9F /* ButtonDefault.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E46051019855E460067EC9F /* ButtonDefault.png */; };
+		5E46051419855E460067EC9F /* ButtonDefault.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E46051019855E460067EC9F /* ButtonDefault.png */; };
+		5E46051519855E460067EC9F /* ButtonDisabled.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E46051119855E460067EC9F /* ButtonDisabled.png */; };
+		5E46051619855E460067EC9F /* ButtonDisabled.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E46051119855E460067EC9F /* ButtonDisabled.png */; };
+		5EADD7DE198582280070F855 /* ButtonProblem.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EADD7DD198582280070F855 /* ButtonProblem.png */; };
+		5EADD7E21985A35D0070F855 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5EADD7E11985A35D0070F855 /* Settings.bundle */; };
+		5EADD7E31985A35D0070F855 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5EADD7E11985A35D0070F855 /* Settings.bundle */; };
+		5EB7DF041985785F007A2002 /* ButtonHighlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EB7DF031985785F007A2002 /* ButtonHighlighted.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +42,11 @@
 		5E46050019855DF80067EC9F /* GateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E46050519855DF80067EC9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5E46050619855DF80067EC9F /* GateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GateTests.swift; sourceTree = "<group>"; };
+		5E46051019855E460067EC9F /* ButtonDefault.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ButtonDefault.png; sourceTree = "<group>"; };
+		5E46051119855E460067EC9F /* ButtonDisabled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ButtonDisabled.png; sourceTree = "<group>"; };
+		5EADD7DD198582280070F855 /* ButtonProblem.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ButtonProblem.png; sourceTree = "<group>"; };
+		5EADD7E11985A35D0070F855 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		5EB7DF031985785F007A2002 /* ButtonHighlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ButtonHighlighted.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +70,7 @@
 		5E4604E519855DF80067EC9F = {
 			isa = PBXGroup;
 			children = (
+				5EADD7E11985A35D0070F855 /* Settings.bundle */,
 				5E4604F019855DF80067EC9F /* Gate */,
 				5E46050319855DF80067EC9F /* GateTests */,
 				5E4604EF19855DF80067EC9F /* Products */,
@@ -87,6 +101,10 @@
 		5E4604F119855DF80067EC9F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5EADD7DD198582280070F855 /* ButtonProblem.png */,
+				5EB7DF031985785F007A2002 /* ButtonHighlighted.png */,
+				5E46051019855E460067EC9F /* ButtonDefault.png */,
+				5E46051119855E460067EC9F /* ButtonDisabled.png */,
 				5E4604F219855DF80067EC9F /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -190,7 +208,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E4604F919855DF80067EC9F /* Main.storyboard in Resources */,
+				5EADD7DE198582280070F855 /* ButtonProblem.png in Resources */,
+				5E46051519855E460067EC9F /* ButtonDisabled.png in Resources */,
+				5EB7DF041985785F007A2002 /* ButtonHighlighted.png in Resources */,
 				5E4604FB19855DF80067EC9F /* Images.xcassets in Resources */,
+				5E46051319855E460067EC9F /* ButtonDefault.png in Resources */,
+				5EADD7E21985A35D0070F855 /* Settings.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,6 +221,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E46051419855E460067EC9F /* ButtonDefault.png in Resources */,
+				5EADD7E31985A35D0070F855 /* Settings.bundle in Resources */,
+				5E46051619855E460067EC9F /* ButtonDisabled.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,8 +354,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = Gate/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -339,8 +367,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = Gate/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -397,6 +427,7 @@
 				5E46050C19855DF80067EC9F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5E46050D19855DF80067EC9F /* Build configuration list for PBXNativeTarget "GateTests" */ = {
 			isa = XCConfigurationList;
@@ -405,6 +436,7 @@
 				5E46050F19855DF80067EC9F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
